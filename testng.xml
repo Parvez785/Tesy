@@ -6,12 +6,12 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-      <class name="e_Commerce_testClasses.LoginPage"/>
-      <class name="e_Commerce_testClasses.ProductDisplay"/>
+       <class name="e_Commerce_testClasses.LoginPage"/>
       <class name="e_Commerce_testClasses.LogoutPageTestCases"/>
-      <class name="e_Commerce_testClasses.CompareProduct"/>
       <class name="e_Commerce_testClasses.ResetPass"/>
-      <class name="e_Commerce_testClasses.SearchTest"/>
+			  <class name="productPagesTestClasses.CompareProduct"/>
+      <class name="productPagesTestClasses.ProductDisplay"/>
+      <class name="productPagesTestClasses.SearchTest"/>
     </classes>
 	</test> <!--
 	Test -->
