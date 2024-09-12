@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Baseclass.TestListeners" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+      <class name="e_Commerce_testClasses.LoginPage"/>
+      <class name="e_Commerce_testClasses.ProductDisplay"/>
+      <class name="e_Commerce_testClasses.LogoutPageTestCases"/>
+      <class name="e_Commerce_testClasses.CompareProduct"/>
+      <class name="e_Commerce_testClasses.ResetPass"/>
+      <class name="e_Commerce_testClasses.SearchTest"/>
+    </classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
